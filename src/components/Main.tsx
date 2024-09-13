@@ -1,7 +1,5 @@
 import {Button} from '@/components/ui/button'
 import {Card, CardContent} from '@/components/ui/card'
-import {Input} from '@/components/ui/input'
-import { Textarea } from '@/components/ui/textarea'
 import { Scale, Book, Users} from "lucide-react"
 
 function Main() {
@@ -81,7 +79,7 @@ function Main() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100">
+        <section className="w-full py-12 md:py-24 lg:py-32 bg-gray-100" id='referencias'>
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
               Lo que dicen nuestros clientes
@@ -111,22 +109,6 @@ function Main() {
                   <p className="font-bold">- Ana L.</p>
                 </CardContent>
               </Card>
-            </div>
-          </div>
-        </section>
-        <section id="contacto" className="w-full py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-center mb-8">
-              Contáctenos
-            </h2>
-            <div className="mx-auto max-w-[600px]">
-              <form className="space-y-4">
-                <Input placeholder="Nombre" />
-                <Input placeholder="Email" type="email" />
-                <Input placeholder="Teléfono" type="tel" />
-                <Textarea placeholder="Mensaje" />
-                <Button className="w-full">Enviar Mensaje</Button>
-              </form>
             </div>
           </div>
         </section>
