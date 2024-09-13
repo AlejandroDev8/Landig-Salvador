@@ -1,4 +1,4 @@
-import {Button} from '@/components/ui/button'
+import Contact from './Contact'
 import {Card, CardContent} from '@/components/ui/card'
 import { Scale, Book, Users} from "lucide-react"
 
@@ -16,9 +16,7 @@ function Main() {
                   Defendiendo sus derechos con experiencia y dedicación. Justicia para todos, cada día.
                 </p>
               </div>
-              <Button className="bg-white text-black hover:bg-gray-200" size="lg">
-                Consulta Gratuita
-              </Button>
+              <Contact />
             </div>
           </div>
         </section>
