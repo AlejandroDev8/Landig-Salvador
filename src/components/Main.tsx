@@ -76,6 +76,7 @@ function Main() {
                   height="550"
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salvador-s89u8Hyd3EafXx7wA7JtKkSlifG9vR.jpg"
                   width="413"
+                  loading='lazy'
                 />
               </div>
             </div>
