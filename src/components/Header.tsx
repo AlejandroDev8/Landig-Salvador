@@ -34,6 +34,9 @@ function Header() {
             <a className="text-sm font-medium hover:underline underline-offset-4" href="#sobre-nosotros">
               Sobre Nosotros
             </a>
+            <a className="text-sm font-medium hover:underline underline-offset-4" href="#localizanos">
+              Localízanos
+            </a>
           </nav>
         </div>
       </header>

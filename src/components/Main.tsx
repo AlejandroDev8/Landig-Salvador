@@ -1,6 +1,7 @@
 import Contact from './Contact'
 import {Card, CardContent} from '@/components/ui/card'
 import { Scale, Book, Users} from "lucide-react"
+import Location from './Location'
 
 function Main() {
   return (
@@ -113,6 +114,7 @@ function Main() {
             </div>
           </div>
         </section>
+        <Location />
       </main>
   )
 }
