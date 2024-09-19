@@ -5,12 +5,12 @@ import { Scale, Book, Users} from "lucide-react"
 function Main() {
   return (
     <main className="flex-1 pt-14">
-        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-black">
+        <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-black" id='inicio'>
           <div className="container mx-auto px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white">
-                  Bufete García & Asociados
+                  Bufete Alvarado & Asociados
                 </h1>
                 <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">
                   Defendiendo sus derechos con experiencia y dedicación. Justicia para todos, cada día.
@@ -60,9 +60,9 @@ function Main() {
           <div className="container mx-auto px-4 md:px-6">
             <div className="grid items-center gap-6 lg:grid-cols-[1fr_500px] lg:gap-12 xl:grid-cols-[1fr_550px]">
               <div className="flex flex-col justify-center space-y-4">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Conozca al Abogado García</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Conozca al Abogado Alvarado</h2>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  El Abogado García no es solo un profesional del derecho, es un defensor apasionado de la justicia. Con más de una década de experiencia, ha dedicado su carrera a proteger los derechos de sus clientes, tanto dentro como fuera de la sala del tribunal.
+                  El Abogado Alvarado no es solo un profesional del derecho, es un defensor apasionado de la justicia. Con más de una década de experiencia, ha dedicado su carrera a proteger los derechos de sus clientes, tanto dentro como fuera de la sala del tribunal.
                 </p>
                 <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Su enfoque personalizado y su profundo conocimiento del sistema legal le permiten ofrecer soluciones efectivas y creativas para cada caso único que maneja.
@@ -70,7 +70,7 @@ function Main() {
               </div>
               <div className="flex justify-center lg:justify-end">
                 <img
-                  alt="Abogado García"
+                  alt="Abogado Alvarado"
                   className="aspect-[3/4] overflow-hidden rounded-xl object-cover object-center"
                   height="550"
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salvador-s89u8Hyd3EafXx7wA7JtKkSlifG9vR.jpg"
@@ -89,7 +89,7 @@ function Main() {
               <Card>
                 <CardContent className="p-6">
                   <p className="text-sm text-gray-500 mb-4">
-                    "El Abogado García fue fundamental para ganar mi caso. Su dedicación y experiencia son incomparables."
+                    "El Abogado Alvarado fue fundamental para ganar mi caso. Su dedicación y experiencia son incomparables."
                   </p>
                   <p className="font-bold">- María R.</p>
                 </CardContent>
@@ -97,7 +97,7 @@ function Main() {
               <Card>
                 <CardContent className="p-6">
                   <p className="text-sm text-gray-500 mb-4">
-                    "Gracias al Bufete García & Asociados, pude resolver mi disputa legal de manera rápida y eficiente."
+                    "Gracias al Bufete Alvarado & Asociados, pude resolver mi disputa legal de manera rápida y eficiente."
                   </p>
                   <p className="font-bold">- Juan P.</p>
                 </CardContent>

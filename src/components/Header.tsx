@@ -23,9 +23,9 @@ function Header() {
         }`}
       >
         <div className="container mx-auto flex justify-between items-center">
-          <a className="flex items-center justify-center" href="#">
+          <a className="flex items-center justify-center" href="#inicio">
             <Scale className="h-6 w-6" />
-            <span className="sr-only">Bufete García & Asociados</span>
+            <span className="sr-only">Bufete Alvarado & Asociados</span>
           </a>
           <nav className="flex gap-4 sm:gap-6">
             <a className="text-sm font-medium hover:underline underline-offset-4" href="#areas-practica">
@@ -33,9 +33,6 @@ function Header() {
             </a>
             <a className="text-sm font-medium hover:underline underline-offset-4" href="#sobre-nosotros">
               Sobre Nosotros
-            </a>
-            <a className="text-sm font-medium hover:underline underline-offset-4" href="#contacto">
-              Contacto
             </a>
           </nav>
         </div>
