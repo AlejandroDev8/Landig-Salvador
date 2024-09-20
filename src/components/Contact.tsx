@@ -25,7 +25,7 @@ function Contact() {
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[425px]">
                   <DialogHeader>
-                    <DialogTitle>Solicitar Consulta Gratuita</DialogTitle>
+                    <DialogTitle>Solicitar una Consulta</DialogTitle>
                     <DialogDescription>
                       Complete el formulario y nos pondremos en contacto con usted a la brevedad.
                     </DialogDescription>
