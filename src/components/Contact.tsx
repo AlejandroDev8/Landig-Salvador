@@ -20,7 +20,7 @@ function Contact() {
     <Dialog open={isModalOpen} onOpenChange={setIsModalOpen}>
                 <DialogTrigger asChild>
                   <Button className="bg-white text-black hover:bg-gray-200" size="lg">
-                    Consulta Gratuita
+                    Solicita una Consulta
                   </Button>
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[425px]">
